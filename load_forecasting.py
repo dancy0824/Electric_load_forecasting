@@ -178,6 +178,9 @@ test['prediction']=res.predict(test)
 APE=abs(test['prediction']-test['load'])/test['load']
 print(APE.mean())
 
+#add a test code to for github
+
+
 
 
  
